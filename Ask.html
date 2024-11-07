@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jibon Songi</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="style.js"></script>
+</head>
+<body>
+    <nav>
+        <a href="index.html" class="aaa">❤️JIBON SONGI</a>
+        <div class="menu-icon" onclick="toggleMenu()">
+            <i class="fas fa-bars"></i>
+        </div>
+        <div class="all_proparti">
+            <a href="index.html">Home</a>
+            <a href="About_us.html">About us</a>
+            <a href="Ask.html">Ask</a>
+            <a href="Instructions.html">Instructions</a>
+            <a href="Communication.html">Communication</a>
+        </div>
+        <button type="button"><a href="Login.html">Login</a></button>
+    </nav>
+
+<div class="faq-container">
+    <h1 class="faq-title">Frequently Asked Questions</h1>
+
+    <div class="faq-item">
+        <div class="faq-question" onclick="toggleAnswer(1)">
+            <span>1. What is a spouse? How does it work?</span>
+            <span class="faq-icon" id="icon-1">+</span>
+        </div>
+        <div class="faq-answer" id="answer-1">
+            <p>Answer: Jeebansathi is a non-profit Bangladeshi Muslim matrimony platform. Here one can submit and search the biodata of all marriageable Muslim brides and grooms in two different upazila wise general and Islamic categories completely free of charge. If any biodata is preferred the parent can be contacted directly. In this case there will be no third person in the middle. Hence, no one has to pay any expenses before or after marriage.</p>
+        </div>
+    </div>
+    <div class="faq-item">
+        <div class="faq-question" onclick="toggleAnswer(2)">
+            <span>2. Do I have to pay to see biodata contact information?</span>
+            <span class="faq-icon" id="icon-2">+</span>
+        </div>
+        <div class="faq-answer" id="answer-2">
+            <p>Answer: No, no payment is required. Submitting biodata to spouse and viewing contact information of others' biodata is completely free.</p>
+        </div>
+    </div>
+    <div class="faq-item">
+        <div class="faq-question" onclick="toggleAnswer(3)">
+            <span>3. Is this website open to everyone?</span>
+            <span class="faq-icon" id="icon-3">+</span>
+        </div>
+        <div class="faq-answer" id="answer-3">
+            <p>Answer: No, this website is not for everyone, this website is only for all Bangladeshi Muslims.</p>
+        </div>
+    </div>
+    <div class="faq-item">
+        <div class="faq-question" onclick="toggleAnswer(4)">
+            <span>4. Are there any special conditions for creating biodata?</span>
+            <span class="faq-icon" id="icon-4">+</span>
+        </div>
+        <div class="faq-answer" id="answer-4">
+            <p>Answer: There is no special requirement for creating biodata in general category except permission of parent. However, the minimum requirements for submission of biodata in Islamic category are as follows.
+                1. There should be five daily prayers.<br>
+                2. In the case of men, the wajib beard should be long in the circumcision method and cloth should be worn over the ankles.<br>
+                3. In the case of women, it is obligatory to wear veil with "Niqab".<br>
+                4. Must refrain from drug consumption.<br>
+                5. Parental permission must be obtained.<br></p>
+        </div>
+    </div>
+    <div class="faq-item">
+        <div class="faq-question" onclick="toggleAnswer(5)">
+            <span>5. How much privacy will my information be if I submit my biodata to my spouse? How much will be published?</span>
+            <span class="faq-icon" id="icon-5">+</span>
+        </div>
+        <div class="faq-answer" id="answer-5">
+            <p>Answer: Your and your parents name, mobile number and email address will be kept confidential after your biodata is approved. All other information can be seen by general users. That is, common users can read your biodata but not know your identity. If someone is interested to contact for marriage then using points can see your name and parent's mobile number and can contact for marriage.</p>
+        </div>
+    </div>
+    <div class="faq-item">
+        <div class="faq-question" onclick="toggleAnswer(6)">
+            <span>6. Why is my biodata not approved?</span>
+            <span class="faq-icon" id="icon-6">+</span>
+        </div>
+        <div class="faq-answer" id="answer-6">
+            <p>Answer: Biodata is not approved for various reasons. Some of the reasons are mentioned. <br>
+                1/ If biodata is submitted on our website without informing the parent.<br>
+                2/ If you write your number in the parent's number box.<br>
+                3/ If you do not pray five times a day.<br>
+                4/ In the case of men, the wajib beard is not long in circumcision. (Except for those who do not grow or grow beard due to natural reasons.)<br>
+                5/ In case of men, if not wearing clothes on the ankles.<br>
+                6/ In case of women, if not veiled with Niqab.<br>
+                7/ If any false information is given in biodata.<br>
+                8/ If the answer to a particular question is given in a different way without giving a clear answer. E.g. Many people just write "Alhamdulillah" or "Hum" etc., but yes/no is not clearly understood by it.<br>
+                9/ If you write something that contradicts Islam.<br></p>
+        </div>
+    </div>
+    <div class="faq-item">
+        <div class="faq-question" onclick="toggleAnswer(7)">
+            <span>7. My biodata has not been approved due to some incorrect information, can I resubmit my biodata?</span>
+            <span class="faq-icon" id="icon-7">+</span>
+        </div>
+        <div class="faq-answer" id="answer-7">
+            <p>Answer: Yes, you can. If your bio-data is not approved for providing wrong information in the fields, submit the bio- data with correct information in those fields and it will be approved in sha Allah. However, if the biodata is not approved due to not following the rules of the spouse, then it will not be approved again.</p>
+        </div>
+    </div>
+    <div class="faq-item">
+        <div class="faq-question" onclick="toggleAnswer(8)">
+            <span>8. I pray 5 times, but I don't have circumcised beard, can I upload biodata in Islamic category?</span>
+            <span class="faq-icon" id="icon-8">+</span>
+        </div>
+        <div class="faq-answer" id="answer-8">
+            <p>Answer: Your biodata will not be approved. However, you can submit biodata in general category. Only those who currently have mandatory beard will have their biodata approved. Except for those who do not grow or grow beards due to natural causes.</p>
+        </div>
+    </div>
+    <div class="faq-item">
+        <div class="faq-question" onclick="toggleAnswer(9)">
+            <span>9. I liked a biodata, can I contact the candidate directly?</span>
+            <span class="faq-icon" id="icon-9">+</span>
+        </div>
+        <div class="faq-answer" id="answer-9">
+            <p>Answer: No. Spouse does not support contacting spouse directly. Only groom/husband's guardian can contact.</p>
+        </div>
+    </div>
+    <div class="faq-item">
+        <div class="faq-question" onclick="toggleAnswer(10)">
+            <span>10. I pray 5 times, I wear burka and hijab but not niqab. Can I upload biodata in Islamic category?</span>
+            <span class="faq-icon" id="icon-10">+</span>
+        </div>
+        <div class="faq-answer" id="answer-10">
+            <p>Answer: Your biodata will not be approved. However, you can submit biodata in general category. Only those who are wearing full veil with niqab are approved for their biodata.</p>
+        </div>
+    </div>
+    <div class="faq-item">
+        <div class="faq-question" onclick="toggleAnswer(11)">
+            <span>11. My guardian does not agree to my marriage, can I submit biodata?</span>
+            <span class="faq-icon" id="icon-11">+</span>
+        </div>
+        <div class="faq-answer" id="answer-11">
+            <p>Answer: In order to create a biodata on our website, one must submit it with the permission of the spouse/guardian. Otherwise the biodata is not approved. However, only in the case of males who have no parent or legal guardian, he can submit</p>
+        </div>
+    </div>
+    <div class="faq-item">
+        <div class="faq-question" onclick="toggleAnswer(12)">
+            <span>12. I'm a student, I don't have any income yet, can I upload biodata?</span>
+            <span class="faq-icon" id="icon-12">+</span>
+        </div>
+        <div class="faq-answer" id="answer-12">
+            <p>Answer: Yes, you can. However, the biodata must be created with your parent's permission.</p>
+        </div>
+    </div>
+    <div class="faq-item">
+        <div class="faq-question" onclick="toggleAnswer(13)">
+            <span>13. Can I delete my bio-data if I get married after submitting my bio-data or for other reasons?</span>
+            <span class="faq-icon" id="icon-13">+</span>
+        </div>
+        <div class="faq-answer" id="answer-13">
+            <p>Answer: Yes, you can delete or temporarily disable your biodata whenever you want.</p>
+        </div>
+    </div>
+</div>
+
+
+
+
+<section class="footer">
+    <a href="">Privacy policy</a>
+    <a href="">Terms & Conditions</a>
+    <a href="">Donate</a>
+
+    <p>© Copyright 2024 Nazmus Sakib. All Rights Reserved.</p>
+</section>
+
+
+<script>
+    function toggleAnswer(id) {
+        const answer = document.getElementById(`answer-${id}`);
+        const icon = document.getElementById(`icon-${id}`);
+        
+        if (answer.style.display === "block") {
+            answer.style.display = "none";
+            icon.textContent = "+";
+        } else {
+            answer.style.display = "block";
+            icon.textContent = "-";
+        }
+    }
+    </script>
+    
+
+
+</body>
+</html>
