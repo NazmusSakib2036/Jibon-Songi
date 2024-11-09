@@ -123,3 +123,10 @@ header a i{
         transform: scale(1.2);
     }
 }
+
+
+@media(max-width: 700px) {
+    header a{
+        font-size: 17px;
+    }
+}
