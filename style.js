@@ -33,3 +33,24 @@ function obfuscate() {
     console.log(msg);
 }
 obfuscate();
+
+
+
+
+
+
+// Wait for the DOM to load before running the script
+document.addEventListener("DOMContentLoaded", () => {
+    const customCursor = document.getElementById('customCursor');
+
+    // Ensure customCursor element is found
+    if (customCursor) {
+        document.addEventListener('mousemove', (e) => {
+            // Update cursor position based on mouse coordinates
+            customCursor.style.left = `${e.pageX}px`;
+            customCursor.style.top = `${e.pageY}px`;
+        });
+    } else {
+        console.error("Custom cursor element not found.");
+    }
+});
