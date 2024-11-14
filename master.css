@@ -17,6 +17,7 @@ body {
     background: linear-gradient(135deg,#37fff6, #00ff00, yellow,  #37fff6,#37fff6, #00ff00, yellow,  #37fff6, #37fff6, #00ff00, yellow,  #37fff6);
     background-size: 300% 300%;
     animation: gradientAnimation 8s ease infinite;
+    cursor: none;
 }
 
 /* Animation for moving gradient to create 3D depth effect */
