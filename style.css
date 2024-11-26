@@ -1,97 +1,100 @@
-*{
-    padding: 0;
-    margin: 0;
-    scroll-behavior: smooth;
-    box-sizing: border-box;
+* {
+   padding: 0;
+   margin: 0;
+   scroll-behavior: smooth;
+   box-sizing: border-box;
 }
 
-html{
-    padding: 0;
-    margin: 0;
-    scroll-behavior: smooth;
-    box-sizing: border-box;
-    font-family: sans-serif;
+html {
+   padding: 0;
+   margin: 0;
+   scroll-behavior: smooth;
+   box-sizing: border-box;
+   font-family: sans-serif;
 }
 
-body{
-    background: linear-gradient(to top, #37fff6, #ffdfdf, #61ffa3,#61ffa3);
-    cursor: none;
+body {
+   background: linear-gradient(to top, #37fff6, #ffdfdf, #61ffa3, #61ffa3);
 }
 
-p{
-    color: black;
+p {
+   color: black;
 }
 
 
-nav .aaa{
-    font-size: 30px;
-    animation: sakib 5s infinite;
-    font-weight: bold;
-    text-decoration: none;
+nav .aaa {
+   font-size: 30px;
+   animation: sakib 5s infinite;
+   font-weight: bold;
+   text-decoration: none;
 }
 
-nav .aaa:hover{
-    text-decoration: none;
+nav .aaa:hover {
+   text-decoration: none;
 }
 
 @keyframes sakib {
-    0% {
-        color: #ff0000;
-    }
-    25% {
-        color: #00ff00;
-    }
-    50% {
-        color: #0000ff;
-    }
-    75% {
-        color: #ffff00;
-    }
-    100% {
-        color: #ff0000;
-    }
+   0% {
+      color: #ff0000;
+   }
+
+   25% {
+      color: #00ff00;
+   }
+
+   50% {
+      color: #0000ff;
+   }
+
+   75% {
+      color: #ffff00;
+   }
+
+   100% {
+      color: #ff0000;
+   }
 }
 
-nav a{
-    padding: 10px;
-    color: black;
-    font-size: 20px;
-    text-decoration: none;
-    font-weight: 500;
+nav a {
+   padding: 10px;
+   color: black;
+   font-size: 20px;
+   text-decoration: none;
+   font-weight: 500;
 
-    &:hover{
+   &:hover {
       text-decoration: overline;
-    }
+   }
 }
 
-nav button{
-    height: auto;
-    padding: 7px;
-    color: white;
-    background-color: #00ff00;
-    border: none;
-    border-radius: 20px;
-    box-shadow: none;
+nav button {
+   height: auto;
+   padding: 7px;
+   color: white;
+   background-color: #00ff00;
+   border: none;
+   border-radius: 20px;
+   box-shadow: none;
 
-   &:hover{
+   &:hover {
       background-color: #9d00ff;
       box-shadow: 0 0 10px red, 0 0 15px red;
       transition: 1s;
    }
 }
 
-nav button a{
-    text-decoration: none;
-    color: black;
-    font-size: 18px;
- }
+nav button a {
+   text-decoration: none;
+   color: black;
+   font-size: 18px;
+}
 
- nav button a:hover{
-    text-decoration: none;
-    color: white;
- }
+nav button a:hover {
+   text-decoration: none;
+   color: white;
+}
 
- 
+
 
 
 nav {
@@ -99,8 +102,8 @@ nav {
    justify-content: space-between;
    align-items: center;
    padding: 10px 20px;
-   background: linear-gradient(to right, #ffdfdf, white,white, #ff6969);
-   position:relative;
+   background: linear-gradient(to right, #ffdfdf, white, white, #ff6969);
+   position: relative;
    width: 100%;
    top: 0;
    z-index: 10;
@@ -109,11 +112,19 @@ nav {
 }
 
 @keyframes float {
-   0%, 100% { transform: translateY(0); }
-   50% { transform: translateY(-5px); }
+
+   0%,
+   100% {
+      transform: translateY(0);
+   }
+
+   50% {
+      transform: translateY(-5px);
+   }
 }
 
-nav a, .login-button a {
+nav a,
+.login-button a {
    text-decoration: none;
    padding: 0 15px;
 }
@@ -133,227 +144,227 @@ nav a, .login-button a {
 
 @media (max-width: 931px) {
    .all_proparti {
-       display: none;
-       color: white;
+      display: none;
+      color: white;
    }
 
    .login-button {
-       order: 1;
-       font-size: 16px;
+      order: 1;
+      font-size: 16px;
    }
 
    .menu-icon {
-       display: block;
-       order: 2;
-       font-size: 24px;
-       color: black;
-       cursor: pointer;
+      display: block;
+      order: 2;
+      font-size: 24px;
+      color: black;
+      cursor: pointer;
    }
 
    .all_proparti.show {
-       display: flex;
-       flex-direction: column;
-       justify-content: center;
-       align-items: center;
-       position: absolute;
-       top: 60px;
-       left: 0;
-       width: 100%;
-       background:linear-gradient(to right,#ffff00, #00ff00, #37fff6);
-       padding: 10px 0;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      position: absolute;
+      top: 60px;
+      left: 0;
+      width: 100%;
+      background: linear-gradient(to right, #ffff00, #00ff00, #37fff6);
+      padding: 10px 0;
    }
 
    .all_proparti.show a {
-       padding: 10px 20px;
-       color: black;
-       font-family:Verdana, sans-serif, 'Lucida Sans','Lucida Sans Regular';
+      padding: 10px 20px;
+      color: black;
+      font-family: Verdana, sans-serif, 'Lucida Sans', 'Lucida Sans Regular';
 
-       &:hover{
+      &:hover {
          text-decoration: overline;
-       }
+      }
    }
 
 }
 
 
 
- .welcome{
-    height: auto;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
- }
-
- .section_1{
-    height: auto;
-    width: 80%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding:10px;
- }
-
- .section_1 .spousal_muslim{
-    font-size: 50px;
-    color: black;
-    padding: 10px 0px 0px 0px;
-    font-weight: 300;
- }
-
- .section_1 .bangladesh{
-    font-size: 20px;
-    color: blue;
-    text-align: center;
-    line-height: 40px;
- }
-
- .dis{
-    margin: 20px;
-    padding: 20px;
-    border: 2px dotted black;
-    text-align: center;
-    border-radius: 20px;
- }
-
- .dis p{
-    font-size: 20px;
- }
-
- .notice{
-    height: auto;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
- }
-
- .section_2{
-    height: auto;
-    width: 80%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding:10px;
- }
-
- .notice_1, 
- .notice_2{
-    background-color: white;
-    padding: 15px;
-    border-radius: 20px;
-    border: 2px dashed black;
-    margin-bottom: 20px;
- }
-
- .notice_1 p,
- .notice_2 p{
-   font-size: 18px;
-   color: black;
- }
-
- .notice_1 button{
-    color: black;
-    padding: 6px;
-    font-size: 18px;
-    border: 1px solid #37fff6;
-    background: linear-gradient(to right, #00ff00,#37fff6);
-    border-radius: 10px;
-    box-shadow: none;
- }
-
- .notice_1 button:hover{
-    background: linear-gradient(to right,#37fff6, #00ff00);
-    box-shadow: 0 0 20px blue;
-    border: 1px solid #37fff6;
-    color: #ff0000;
-    transition: .5s;
- }
-
- .button_leave{
-    padding: 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
- }
-
- .section_3{
-    height: auto;
-    width: 100%;
-    text-align: center;
-    padding: 10px;
- }
-
- .section_3 p{
-    font-size: 20px;
-    padding: 10px;
- }
-
- .identity_for_me{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr); 
-    gap: 20;
-    justify-content: center;
-    align-items: center-;
- }
-
- .identity{
+.welcome {
+   height: auto;
    width: 100%;
    display: flex;
    flex-direction: column;
    justify-content: center;
    align-items: center;
- }
+}
 
- .identity_for_me label{
-    padding: 10px;
-    font-size: 15px;
- }
+.section_1 {
+   height: auto;
+   width: 80%;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   padding: 10px;
+}
 
- .identity_for_me label select{
-    padding: 5px;
-    height: auto;
-    width: 170px;
-    border-radius: 5px;
-    font-size: 15px;
- }
+.section_1 .spousal_muslim {
+   font-size: 50px;
+   color: black;
+   padding: 10px 0px 0px 0px;
+   font-weight: 300;
+}
 
- .identity button{
-   margin: 20px;
-   background-color:#00ff00;
-   border: 1px solid blue;
+.section_1 .bangladesh {
    font-size: 20px;
-   padding: 5px 10px ;
-   box-shadow: none;
-   font-weight: 500;
-   border-radius: 20px;
- }
+   color: blue;
+   text-align: center;
+   line-height: 40px;
+}
 
- .identity button:hover{
-   background-color: #37fff6;
-   box-shadow: 0 0 10px #717d9b, 0 0 15px #717d9b;
+.dis {
+   margin: 20px;
+   padding: 20px;
+   border: 2px dotted black;
+   text-align: center;
+   border-radius: 20px;
+}
+
+.dis p {
+   font-size: 20px;
+}
+
+.notice {
+   height: auto;
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+
+.section_2 {
+   height: auto;
+   width: 80%;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   padding: 10px;
+}
+
+.notice_1,
+.notice_2 {
+   background-color: white;
+   padding: 15px;
+   border-radius: 20px;
+   border: 2px dashed black;
+   margin-bottom: 20px;
+}
+
+.notice_1 p,
+.notice_2 p {
+   font-size: 18px;
+   color: black;
+}
+
+.notice_1 button {
+   color: black;
+   padding: 6px;
+   font-size: 18px;
+   border: 1px solid #37fff6;
+   background: linear-gradient(to right, #00ff00, #37fff6);
+   border-radius: 10px;
+   box-shadow: none;
+}
+
+.notice_1 button:hover {
+   background: linear-gradient(to right, #37fff6, #00ff00);
+   box-shadow: 0 0 20px blue;
+   border: 1px solid #37fff6;
    color: #ff0000;
    transition: .5s;
-   cursor: pointer;
- }
+}
 
- .section_4{
+.button_leave {
+   padding: 10px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.section_3 {
    height: auto;
    width: 100%;
    text-align: center;
    padding: 10px;
 }
 
-.section_4 p{
+.section_3 p {
    font-size: 20px;
    padding: 10px;
 }
 
-.create_resume{
+.identity_for_me {
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   gap: 20;
+   justify-content: center;
+   align-items: center-;
+}
+
+.identity {
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+
+.identity_for_me label {
+   padding: 10px;
+   font-size: 15px;
+}
+
+.identity_for_me label select {
+   padding: 5px;
+   height: auto;
+   width: 170px;
+   border-radius: 5px;
+   font-size: 15px;
+}
+
+.identity button {
+   margin: 20px;
+   background-color: #00ff00;
+   border: 1px solid blue;
+   font-size: 20px;
+   padding: 5px 10px;
+   box-shadow: none;
+   font-weight: 500;
+   border-radius: 20px;
+}
+
+.identity button:hover {
+   background-color: #37fff6;
+   box-shadow: 0 0 10px #717d9b, 0 0 15px #717d9b;
+   color: #ff0000;
+   transition: .5s;
+   cursor: pointer;
+}
+
+.section_4 {
+   height: auto;
+   width: 100%;
+   text-align: center;
+   padding: 10px;
+}
+
+.section_4 p {
+   font-size: 20px;
+   padding: 10px;
+}
+
+.create_resume {
    padding: 20px;
    display: flex;
    flex-direction: row;
@@ -361,7 +372,7 @@ nav a, .login-button a {
    align-items: center;
 }
 
-.create_resume a{
+.create_resume a {
    text-decoration: none;
    font-size: 20px;
    padding: 0px 50px;
@@ -378,7 +389,7 @@ nav a, .login-button a {
    box-shadow: none;
 }
 
-.create_resume a:hover{
+.create_resume a:hover {
    background: white;
    color: red;
    border: 1px solid black;
@@ -386,7 +397,7 @@ nav a, .login-button a {
    transition: .5s;
 }
 
-.section_5{
+.section_5 {
    display: flex;
    height: auto;
    width: 100%;
@@ -394,19 +405,19 @@ nav a, .login-button a {
    align-items: center;
 }
 
-.section_5 .total_service{
+.section_5 .total_service {
    height: auto;
    width: 80%;
    display: flex;
    flex-direction: column;
    justify-content: center;
    align-items: center;
-   background: linear-gradient(to right, #37fff6,#ffff00,#ffdfdf,#37fff6);
+   background: linear-gradient(to right, #37fff6, #ffff00, #ffdfdf, #37fff6);
    border-radius: 20px;
    border: 2px dotted black;
 }
 
-.content_for_me{
+.content_for_me {
    height: auto;
    width: auto;
    padding: 20px;
@@ -417,19 +428,19 @@ nav a, .login-button a {
    border: 1px dotted blue;
 }
 
-.section_5 .total_service .container{
+.section_5 .total_service .container {
    display: flex;
    flex-direction: row;
    padding: 10px;
 }
 
-.service_title{
+.service_title {
    font-size: 30px;
    font-weight: 350;
    padding: 10px;
 }
 
-.section_6{
+.section_6 {
    display: flex;
    height: auto;
    width: 100%;
@@ -438,14 +449,14 @@ nav a, .login-button a {
    padding: 20px;
 }
 
-.spouse_work{
+.spouse_work {
    display: flex;
    flex-direction: column;
    justify-content: center;
    align-items: center;
 }
 
-.total_service{
+.total_service {
    display: flex;
    flex-direction: column;
    justify-content: center;
@@ -457,21 +468,21 @@ nav a, .login-button a {
    border: 2px dotted black;
 }
 
-.spouse_work_1{
+.spouse_work_1 {
    height: auto;
    width: 95%;
 }
 
-.heading{
+.heading {
    font-size: 20px;
    font-weight: bold;
 }
 
-.heading_11{
+.heading_11 {
    font-size: 15px;
 }
 
-.section_7{
+.section_7 {
    display: flex;
    height: auto;
    width: 100%;
@@ -480,21 +491,21 @@ nav a, .login-button a {
    padding: 20px;
 }
 
-.jibonsathi_platform{
+.jibonsathi_platform {
    display: flex;
    flex-direction: column;
    justify-content: center;
    align-items: center;
    height: auto;
    width: 80%;
-    /*background:#37fff6; */
+   /*background:#37fff6; */
    padding: 20px;
    border-radius: 20px;
    border: 2px dotted black;
 }
 
-.jibonsathi_security{
-  display: flex;
+.jibonsathi_security {
+   display: flex;
    flex-direction: column;
    justify-content: center;
    align-items: center;
@@ -502,7 +513,7 @@ nav a, .login-button a {
    width: 80%;
 }
 
-.container_box{
+.container_box {
    height: auto;
    width: 100%;
    padding: 10px;
@@ -516,7 +527,7 @@ nav a, .login-button a {
    border: 1px dotted blue;
 }
 
-.section_8{
+.section_8 {
    height: auto;
    width: 100%;
    padding: 20px;
@@ -526,7 +537,7 @@ nav a, .login-button a {
    justify-content: center;
 }
 
-.donate{
+.donate {
    height: auto;
    width: 80%;
    display: flex;
@@ -540,34 +551,34 @@ nav a, .login-button a {
    border: 2px dotted red;
 }
 
-.donate p{
+.donate p {
    font-size: 20px;
    color: white;
    padding: 10px;
-   }
-
-   .donate a{
-      text-decoration: none;
-         font-size: 20px;
-         color: black;
-         border-radius: 10px;
-         padding: 0px 20px;
-         background: white;
-         border: 1px solid blue;
-      box-shadow: none;
-
-&:hover{
-   color: black;
-   background: #00ff00;
-   border: 1px solid red;
-   box-shadow: 0 0 10px white, 0 0 15px white;
-   color: #ff0000;
-   transition: .5s;
 }
 
-      }
+.donate a {
+   text-decoration: none;
+   font-size: 20px;
+   color: black;
+   border-radius: 10px;
+   padding: 0px 20px;
+   background: white;
+   border: 1px solid blue;
+   box-shadow: none;
 
-.b_note{
+   &:hover {
+      color: black;
+      background: #00ff00;
+      border: 1px solid red;
+      box-shadow: 0 0 10px white, 0 0 15px white;
+      color: #ff0000;
+      transition: .5s;
+   }
+
+}
+
+.b_note {
    height: auto;
    width: 80%;
    display: flex;
@@ -581,13 +592,13 @@ nav a, .login-button a {
    margin: 10px;
 }
 
-.b_note p{
+.b_note p {
    font-size: 17px;
    color: black;
    padding: 10px;
-   }
+}
 
-.footer{
+.footer {
    height: auto;
    width: 100%;
    background: navy;
@@ -595,20 +606,20 @@ nav a, .login-button a {
    padding: 10px
 }
 
-.footer a{
+.footer a {
    font-size: 15px;
    text-decoration: none;
    color: white;
 }
 
-.footer p{
+.footer p {
    font-size: 15px;
    color: white;
 }
 
-                      /* login page */
+/* login page */
 
-.log_in{
+.log_in {
    display: flex;
    justify-content: center;
    align-items: center;
@@ -617,7 +628,7 @@ nav a, .login-button a {
    padding: 10px 10px 100px 10px;
 }
 
-.login_sec{
+.login_sec {
    padding: 10px;
    display: flex;
    flex-direction: column;
@@ -627,12 +638,12 @@ nav a, .login-button a {
    width: 50%;
 }
 
-.login_sec label{
+.login_sec label {
    height: auto;
    width: 100%;
 }
 
-.login_sec label input{
+.login_sec label input {
    padding: 12px 15px;
    font-size: 15px;
    height: auto;
@@ -642,15 +653,15 @@ nav a, .login-button a {
    box-shadow: 0 0 10px #717d9b, 0 0 15px #717d9b;
 }
 
-.login_sec label input[type=button]{
-   background-color:#00ff00;
+.login_sec label input[type=button] {
+   background-color: #00ff00;
    border: 1px solid blue;
    font-size: 20px;
    padding: 5px;
    box-shadow: none;
    font-weight: 500;
 
-   &:hover{
+   &:hover {
       background-color: #37fff6;
       box-shadow: 0 0 10px #717d9b, 0 0 15px #717d9b;
       color: #ff0000;
@@ -660,35 +671,35 @@ nav a, .login-button a {
 
 
 
-.heading_22{
+.heading_22 {
    font-size: 50px;
 }
 
-.heading_13{
+.heading_13 {
    font-size: 20px;
 }
 
-.forgot_pass{
+.forgot_pass {
    display: inline-flex;
    justify-content: flex-end;
    align-items: flex-end;
-   flex-direction: column;   
+   flex-direction: column;
    text-align: right;
    padding: 10px;
 }
 
-.forgot_pass a{
-   text-decoration:  none;
+.forgot_pass a {
+   text-decoration: none;
    color: blue;
    font-size: 15px;
    text-align: right;
 }
 
-.forgot_pass a:hover{
-   text-decoration:  underline;
+.forgot_pass a:hover {
+   text-decoration: underline;
 }
 
-.create_account p{
+.create_account p {
    font-size: 20px;
    padding: 8px;
 }
@@ -701,11 +712,11 @@ nav a, .login-button a {
 
 .create_account_1:hover {
    border: black 1px solid;
-   background:#00ff00;
-   transition:  1s ;
+   background: #00ff00;
+   transition: 1s;
 }
 
-.create_account_1 a{
+.create_account_1 a {
    font-size: 20px;
    padding: 0px 60px;
    text-decoration: none;
@@ -713,16 +724,16 @@ nav a, .login-button a {
    color: black;
 }
 
-.create_account_1 a:hover{
+.create_account_1 a:hover {
    color: red;
-   transition:  .5s ;
+   transition: .5s;
 }
 
 
-                         /*Create Acoount section*/
+/*Create Acoount section*/
 
 
-.account{
+.account {
    display: flex;
    justify-content: center;
    align-items: center;
@@ -731,7 +742,7 @@ nav a, .login-button a {
    padding: 10px;
 }
 
-.account_sec{
+.account_sec {
    padding: 10px;
    display: flex;
    flex-direction: column;
@@ -741,13 +752,13 @@ nav a, .login-button a {
    width: 50%;
 }
 
-.account_sec label{
+.account_sec label {
    height: auto;
    width: 100%;
    padding: 7px;
 }
 
-.account_sec input{
+.account_sec input {
    padding: 12px 15px;
    font-size: 15px;
    height: auto;
@@ -758,25 +769,25 @@ nav a, .login-button a {
 }
 
 .account_sec input[type=number]::-webkit-inner-spin-button,
-.account_sec input[type=number]::-webkit-outer-spin-button{
+.account_sec input[type=number]::-webkit-outer-spin-button {
    appearance: none;
 }
 
-.checkbox_icon{
+.checkbox_icon {
    display: flex;
    width: 100%;
    padding: 0px;
 }
 
-.account_sec input[type=checkbox]{
+.account_sec input[type=checkbox] {
    padding: 5px;
    margin: 7px;
    width: auto;
    box-shadow: none;
 }
 
-.account_sec input[type=button]{
-   background-color:#00ff00;
+.account_sec input[type=button] {
+   background-color: #00ff00;
    border: 1px solid blue;
    font-size: 20px;
    padding: 5px;
@@ -784,27 +795,27 @@ nav a, .login-button a {
    font-weight: 500;
 }
 
-.account_sec input[type=button]:hover{
+.account_sec input[type=button]:hover {
    background-color: #37fff6;
    box-shadow: 0 0 10px #717d9b, 0 0 15px #717d9b;
    color: #ff0000;
    transition: .5s;
 }
 
-.create_account_1{
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.create_account_1 {
+   display: flex;
+   justify-content: center;
+   align-items: center;
 }
 
-.create_account_1:hover{
-   background-color:#00ff00;
+.create_account_1:hover {
+   background-color: #00ff00;
    box-shadow: 0 0 10px #717d9b, 0 0 15px #717d9b;
    color: #ff0000;
    transition: .5s;
 }
 
-.create_account_1 a{
+.create_account_1 a {
    text-decoration: none;
    font-size: 20px;
    text-align: center;
@@ -812,9 +823,9 @@ nav a, .login-button a {
 }
 
 
-                   /* contact section */
+/* contact section */
 
-.form-control{
+.form-control {
    height: auto;
    width: 100%;
    padding: 12px 15px;
@@ -827,25 +838,25 @@ nav a, .login-button a {
 
 
 
-                                                                        /* About_us section */
+/* About_us section */
 
-.about_us p{
+.about_us p {
    text-align: center;
 }
 
-.about_us{
+.about_us {
    padding: 15px;
 }
 
 
-                                                /* Ask section */
+/* Ask section */
 
-details summary{
+details summary {
    list-style: none;
    cursor: pointer;
    position: relative;
    padding-left: 20px;
-   margin:20px;
+   margin: 20px;
 }
 
 
@@ -869,7 +880,7 @@ details summary{
    padding: 5px 0px;
 }
 
-.faq-item a{
+.faq-item a {
    text-decoration: none;
    color: blue;
 }
@@ -899,127 +910,131 @@ details summary{
 }
 
 
-                                                      /* Terms & Conditions */
+/* Terms & Conditions */
 
 
-.container_terms h1{
+.container_terms h1 {
    text-align: center;
    padding: 10px;
    font-size: 30px;
-   background:linear-gradient(to top,black, white, black);
+   background: linear-gradient(to top, black, white, black);
 }
 
-.container_terms p{
+.container_terms p {
    padding: 15px;
    font-size: 17px;
 }
 
 
-                     /* master_planning */
+/* master_planning */
 
-.tag{
+.tag {
    display: flex;
    justify-content: flex-end;
    align-items: flex-end;
    padding: 20px 50px 0px 0px;
 }
 
-.tag a{
+.tag a {
    background-color: blue;
    padding: 10px;
    border-radius: 50%;
    color: white;
 
-&:hover{
-   background-color: yellow;
-   color: black;
-   box-shadow: 0 0 10px black;
-   transition: .5s;
-}
+   &:hover {
+      background-color: yellow;
+      color: black;
+      box-shadow: 0 0 10px black;
+      transition: .5s;
+   }
 }
 
 
-                  /* Style the custom cursor */
+/* Style the custom cursor */
 
 .custom-cursor {
-    width: 20px;
-    height: 20px;
-    background: radial-gradient(circle, black 20%, yellow 40%, red 60%, yellow 80%);
+   width: 20px;
+   height: 20px;
+   background: radial-gradient(circle, black 20%, yellow 40%, red 60%, yellow 80%);
 
- /* Semi-transparent black */
-    border-radius: 50%;
-    position: absolute;
-    pointer-events: none; /* Ensure it doesn't interfere with other elements */
-    transform: translate(-50%, -50%); /* Center the cursor on mouse position */
-    transition: transform 0.1s ease; /* Smooth movement */
-    border: 2px dotted blue;
-    box-shadow: 0px 0px 10px black;
+   /* Semi-transparent black */
+   border-radius: 50%;
+   position: absolute;
+   pointer-events: none;
+   /* Ensure it doesn't interfere with other elements */
+   transform: translate(-50%, -50%);
+   /* Center the cursor on mouse position */
+   transition: transform 0.1s ease;
+   /* Smooth movement */
+   border: 2px dotted blue;
+   box-shadow: 0px 0px 10px black;
 }
 
 
 
 
 
-               /* Responsive design */
+/* Responsive design */
 
 
 @media(max-width: 746px) {
-.account_sec {
-       width: 90%;
+   .account_sec {
+      width: 90%;
    }
-               
+
    .heading_22 {
-        font-size: 30px;
+      font-size: 30px;
    }
 
-.login_sec{
-   width: 90%;
-}
+   .login_sec {
+      width: 90%;
+   }
 
-.heading_13{
-   font-size: 13px;
-}
+   .heading_13 {
+      font-size: 13px;
+   }
 
-.jibonsathi_security{
-   width: 100%;
-}
+   .jibonsathi_security {
+      width: 100%;
+   }
 
-.jibonsathi_platform{
-   width: 100%;
-}
+   .jibonsathi_platform {
+      width: 100%;
+   }
 
-nav button{
-   padding: 1.5px;
-}
-               
+   nav button {
+      padding: 1.5px;
+   }
+
 }
 
 @media(max-width: 450px) {
-   nav .aaa{
-      font-size:20px;
+   nav .aaa {
+      font-size: 20px;
    }
-   
-   }
+
+}
+
 @media(max-width: 700px) {
-      .section_5 .total_service .container{
-         flex-direction: column;
-      }
+   .section_5 .total_service .container {
+      flex-direction: column;
+   }
 
-      .identity_for_me{
-         display: grid;
-         grid-template-columns: repeat( 1, 1fr); 
-         gap: 20;
-         justify-content: center;
-         align-items: center-;
-      }
+   .identity_for_me {
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      gap: 20;
+      justify-content: center;
+      align-items: center-;
+   }
 
-      .create_resume{
-         flex-direction: column;
-      }
+   .create_resume {
+      flex-direction: column;
+   }
 
-      .create_resume a{
-         font-size: 15px;
-         padding: 5px 25px;
-      }
-      
+   .create_resume a {
+      font-size: 15px;
+      padding: 5px 25px;
+   }
+
 }
