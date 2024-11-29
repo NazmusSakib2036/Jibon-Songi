@@ -19,7 +19,6 @@ body {
     animation: gradientAnimation 8s ease infinite;
 }
 
-/* Animation for moving gradient to create 3D depth effect */
 @keyframes gradientAnimation {
     0% {
         background-position: 0% 50%;
@@ -134,26 +133,6 @@ header a i {
     }
 }
 
-
-/* Style the custom cursor */
-
-.custom-cursor {
-    width: 20px;
-    height: 20px;
-    background: radial-gradient(circle, black 20%, yellow 40%, red 60%, yellow 80%);
-
-    /* Semi-transparent black */
-    border-radius: 50%;
-    position: absolute;
-    pointer-events: none;
-    /* Ensure it doesn't interfere with other elements */
-    transform: translate(-50%, -50%);
-    /* Center the cursor on mouse position */
-    transition: transform 0.1s ease;
-    /* Smooth movement */
-    border: 2px dotted blue;
-    box-shadow: 0px 0px 10px black;
-}
 
 
 @media(max-width: 700px) {
