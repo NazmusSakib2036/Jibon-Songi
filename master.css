@@ -94,6 +94,18 @@ header a i {
 }
 
 .Brain_hint_1 {
+    font-size: 17px;
+    font-family: Lucida Calligraphy, sans-serif;
+    font-weight: bold;
+
+    &:hover {
+        cursor: no-drop;
+        color: red;
+        transition: .7s;
+    }
+}
+
+.Brain_1 {
     font-size: 25px;
     font-family: Lucida Calligraphy, sans-serif;
     font-weight: bold;
