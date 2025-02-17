@@ -1,1 +1,1 @@
-Jibon-Songi:: https://ariyan13186576.github.io/Jibon-Songi/
+Jibon-Songi:: findjibonsongi024.vercel.app
